@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         ひみたま個人結果になびばーをつける
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
+// @namespace    https://github.com/yayau774/secret-sphere-userscript/
+// @version      0.2
+// @description  なびばーをつける。
 // @author       yayau
+// @updateURL    https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-navibar.user.js
 // @match        http://www.sssloxia.jp/result/*/c/*.html
 // @icon         https://www.google.com/s2/favicons?domain=sssloxia.jp
 // @grant        none
