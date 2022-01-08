@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ひみたま売店リスト内スペルリストの表示をよくする
 // @namespace    https://github.com/yayau774/secret-sphere-userscript/
-// @version      0.0
+// @version      0.1
 // @description  調律済みを消したり出したり
 // @author       yayau
 // @updateURL    https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-spelllist-arrange.user.js
