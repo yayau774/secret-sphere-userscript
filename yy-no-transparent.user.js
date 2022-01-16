@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         テーブルの背景透過を避ける
 // @namespace    https://github.com/yayau774/secret-sphere-userscript/
-// @version      0.2
+// @version      0.3
 // @description  
 // @author       yayau
 // @updateURL    https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-no-transparent.user.js
@@ -12,6 +12,19 @@
 (function() {
     'use strict';
 
-    // Your code here...
-    document.querySelector("head").insertAdjacentHTML("beforeend","<style> table * {background-color:rgb(0, 0, 25)}</style>");
+    // css取得
+    const rules = document.styleSheets[0].cssRules;
+
+    //  rgba(r, g, b, alpha)　のうち、rgbを取得するための正規表現
+    const re_rgba = /rgba\((\d+), (\d+), (\d+), \d+\.\d+\)/;
+
+    //  ルールを見ていく
+    for(let rule of rules){
+        //  背景色の指定があるとき、それがrgba指定ならrgb化する
+        if(rule?.style?.getPropertyValue("background-color")){
+            let bgc = rule.style.getPropertyValue("background-color");
+            console.log("rgba to rgb: " + rule.selectorText);
+            rule.style.setProperty("background-color", bgc.replace(re_rgba, (match, p1, p2, p3, offset, string) => `rgb(${p1}, ${p2}, ${3})`));
+        }
+    }
 })();
