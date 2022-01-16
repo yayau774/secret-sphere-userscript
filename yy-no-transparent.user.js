@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         テーブルの背景透過を避ける
+// @name         ひみたま）背景の透過を避ける
 // @namespace    https://github.com/yayau774/secret-sphere-userscript/
 // @version      0.5
 // @description  
