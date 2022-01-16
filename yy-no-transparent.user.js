@@ -24,7 +24,6 @@
         //  背景色の指定があるとき、それがrgba指定ならrgb化する
         if(rule?.style?.getPropertyValue("background-color")){
             let bgc = rule.style.getPropertyValue("background-color");
-            console.log("rgba to rgb: " + rule.selectorText);
             rule.style.setProperty("background-color", bgc.replace(re_rgba, (match, p1, p2, p3, p4, offset, string) => {
                 //console.log("rgba to rgb: " + rule.selectorText);
                 //console.log(`rgba(${p1}, ${p2}, ${p3}, ${p4}) to rgb(${p1}, ${p2}, ${p3})`);
