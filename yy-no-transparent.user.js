@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         テーブルの背景透過を避ける
 // @namespace    https://github.com/yayau774/secret-sphere-userscript/
-// @version      0.4
+// @version      0.5
 // @description  
 // @author       yayau
 // @updateURL    https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-no-transparent.user.js
 // @match        http://www.sssloxia.jp/*
 // @exclude      http://www.sssloxia.jp/d/rp2*
+// @exclude      http://www.sssloxia.jp/rule/*
 // @icon         https://www.google.com/s2/favicons?domain=sssloxia.jp
 // @grant        none
 // ==/UserScript==
