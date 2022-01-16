@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         テーブルの背景透過を避ける
 // @namespace    https://github.com/yayau774/secret-sphere-userscript/
-// @version      0.1
+// @version      0.2
 // @description  
 // @author       yayau
 // @updateURL    https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-no-transparent.user.js
@@ -13,5 +13,5 @@
     'use strict';
 
     // Your code here...
-    document.querySelector("head").insertAdjacentHTML("beforeend","<style> .tablestyle {background-color:rgb(0, 0, 25)}</style>");
+    document.querySelector("head").insertAdjacentHTML("beforeend","<style> table * {background-color:rgb(0, 0, 25)}</style>");
 })();
