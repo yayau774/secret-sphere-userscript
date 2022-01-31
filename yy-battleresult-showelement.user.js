@@ -21,6 +21,11 @@
 (function(){
     'use strict';
 
+    //  本来のスペル名をちゃんと表示させる
+    //  いらなかったらコメントアウトしといてね　blacktextToGrayのまえに//と入れればよい
+    blacktextToGray();
+
+
 
     //  head最後にスタイルシートを追加
     document.querySelector('head').insertAdjacentHTML('beforeend', `
@@ -30,10 +35,13 @@
         color: silver;
         font-size: small;
     }
-
-    span[style="Color:BLACK"]{
-        color: gray;
-    }
     </style>`);
+
+    //  黒字を灰に
+    function blacktextToGray(){
+        document.querySelectorAll('span[style="Color:BLACK"]').forEach(e=>{
+            e.style.color = "gray";
+        });
+    }
 
 })();
