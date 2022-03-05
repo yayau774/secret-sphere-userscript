@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  反映ボタンを使え
 // @author       yayau
-// @updateURL    https://github.com/yayau774/secret-sphere-userscript/raw/main/なんとかかんとか
+// @updateURL    https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-denju-yokunarumade.user.js
 // @match        http://www.sssloxia.jp/d/spellteach.aspx*
 // @icon         https://www.google.com/s2/favicons?domain=sssloxia.jp
 // @grant        none
