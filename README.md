@@ -1,13 +1,14 @@
 # ひみたまユーザースクリプト置き場
 
 ### いろいろ
-- [ひみたま）各戦闘結果で属性を表示する](https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-battleresult-showelement.user.js)
+- [ひみたま）各戦闘結果で属性を表示する](https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-battleresult-showelement.user.js)  
+  黒字で隠された本来のスペル名とかも表示する。
 - [ひみたま個人結果になびばーをつける](https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-navibar.user.js)
 
 
 ### 背景をどうにかして文字を見やすくするやつ
 - [ひみたま）wikiの背景画像を非表示](https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-no-bgimage.user.js)  
-  備考）@match部分をちょっと変えれば、 www.sssloxia.jp/ 以下全部で背景画像が消える。  
+  @match部分をちょっと変えれば、サイト内の全部で背景画像が消える。  
   見やすいけど寂しくなる。
 - [ひみたま）背景の透過を避ける](https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-no-transparent.user.js)  
   場所によっては背景色が強すぎて逆にみづらくなる。  
