@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         ひみたま）各戦闘結果で属性を表示する
 // @namespace    https://github.com/yayau774/secret-sphere-userscript/
-// @version      0.3
+// @version      0.4
 // @description  スペル発動の横に隠れてる本来のスペル名も表示したりする
 // @author       yayau
 // @updateURL    https://github.com/yayau774/secret-sphere-userscript/raw/main/yy-battleresult-showelement.user.js
-// @match        http://www.sssloxia.jp/result/*/s/*
+// @match        http://www.sssloxia.jp/result/s/*
 // @match        http://www.sssloxia.jp/result/*/b/*
 // @match        http://www.sssloxia.jp/result/*/pk/*
 // @match        http://www.sssloxia.jp/result/*/prc/*
